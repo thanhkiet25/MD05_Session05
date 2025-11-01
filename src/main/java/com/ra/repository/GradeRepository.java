@@ -1,4 +1,7 @@
 package com.ra.repository;
 
-public class GradeRepository {
+import com.ra.model.entity.Grade;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface GradeRepository extends JpaRepository<Grade, Long> {
 }

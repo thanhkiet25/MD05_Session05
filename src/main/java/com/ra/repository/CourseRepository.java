@@ -1,4 +1,7 @@
 package com.ra.repository;
 
-public interface CourseRepository {
+import com.ra.model.entity.Course;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CourseRepository extends JpaRepository<Course, Long> {
 }

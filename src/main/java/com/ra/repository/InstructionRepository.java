@@ -1,4 +1,8 @@
 package com.ra.repository;
 
-public interface InstructionRepository {
+
+import com.ra.model.entity.Instructor;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface InstructionRepository extends JpaRepository<Instructor, Long> {
 }
